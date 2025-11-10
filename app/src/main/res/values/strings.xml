@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">E_Commerce</string>
+
+    <!-- Login & Register -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!-- Register Form -->
+    <string name="hint_name">Nama</string>
+    <string name="hint_phone">Nomor HP</string>
+    <string name="hint_address">Alamat</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Konfirmasi Password</string>
+    <string name="btn_register">Daftar</string>
+
+    <!-- Admin -->
+    <string name="login_as_admin">Login sebagai Admin</string>
+</resources>
