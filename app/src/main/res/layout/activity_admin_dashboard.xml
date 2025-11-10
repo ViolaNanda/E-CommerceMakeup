@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/drawer_layout_admin_dashboard"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".admin.AdminDashboardActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_admin_dashboard"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="Admin Dashboard"
+        app:titleTextColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
 
-        <!-- Toolbar -->
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_admin_dashboard"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-        <!-- Halaman kosong -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Welcome Admin"
-            android:textSize="24sp"
-            android:gravity="center" />
-    </LinearLayout>
-
-    <!-- Navigation Drawer -->
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navigation_view_admin_dashboard"
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        app:headerLayout="@layout/nav_header_admin"
-        app:menu="@menu/admin_nav_menu" />
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang, Admin!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"/>
 
-</androidx.drawerlayout.widget.DrawerLayout>
+    <Button
+        android:id="@+id/btnProductList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelola Produk"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Produk Baru"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnManageUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelola Pengguna"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

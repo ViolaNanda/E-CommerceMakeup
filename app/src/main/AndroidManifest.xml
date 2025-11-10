@@ -14,27 +14,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ECommerce_5">
-
-        <!-- Activity utama (launcher) -->
+        <activity
+            android:name=".admin.ManageUsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.ManageUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EditProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminProdukListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AddProductActivity"
+            android:exported="false" /> <!-- Activity utama (launcher) -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Activity lainnya -->
+        </activity> <!-- Activity lainnya -->
         <activity
             android:name=".UserDashboardActivity"
             android:exported="false" />
-
-
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
-
     </application>
 
 </manifest>
