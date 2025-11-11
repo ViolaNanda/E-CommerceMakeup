@@ -1,13 +1,11 @@
 <resources>
     <string name="app_name">E_Commerce</string>
 
-    <!-- Login & Register -->
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
 
-    <!-- Register Form -->
     <string name="hint_name">Nama</string>
     <string name="hint_phone">Nomor HP</string>
     <string name="hint_address">Alamat</string>
@@ -16,10 +14,8 @@
     <string name="hint_confirm_password">Konfirmasi Password</string>
     <string name="btn_register">Daftar</string>
 
-    <!-- Admin -->
     <string name="login_as_admin">Login sebagai Admin</string>
 
-    <!-- User Dashboard -->
     <string name="welcome_message">Selamat Datang, %1$s!</string>
     <string name="nav_product">Produk</string>
     <string name="nav_keranjang">Keranjang</string>
@@ -28,28 +24,23 @@
     <string name="nav_halaman_admin">Halaman Admin</string>
     <string name="nav_dompet_saya">Dompet Saya</string>
 
-    <!-- Drawer Menu -->
     <string name="nav_keranjang_menu">Keranjang</string>
     <string name="nav_checkout_menu">Checkout</string>
     <string name="nav_profile_menu">Profil</string>
     <string name="nav_logout">Logout</string>
+    <string name="nav_home">Home</string>
 
-    <!-- Admin Dashboard -->
     <string name="nav_product_list">Product List</string>
     <string name="nav_add_product">Add Product</string>
     <string name="nav_manage_users">Manage Users</string>
-    <string name="nav_logout">Logout</string>
     <string name="welcome_admin">Welcome Admin</string>
 
-    <!-- Nav header Admin -->
     <string name="nav_admin_name">Admin</string>
     <string name="nav_admin_photo">Foto Admin</string>
 
-    <!-- AdminDashboardActivity -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <!-- ActivityAdd Product -->
     <string name="hint_description">Deskripsi Produk</string>
     <string name="hint_price">Harga</string>
     <string name="hint_old_price">Harga Lama (opsional)</string>
@@ -59,11 +50,15 @@
     <string name="btn_choose_image">Pilih Gambar</string>
     <string name="btn_save_product_prompt">Apakah Anda ingin menyimpan Produk</string>
     <string name="btn_save_product">Simpan Produk</string>
+    <string name="desc_image_preview">Pratinjau Gambar</string>
 
-    <!-- AdminProductList -->
+    <string name="btn_update_product">Update Produk</string>
+    <string name="nav_edit_product">Edit Produk</string>
+
     <string name="nav_admin_product_list">Daftar Produk</string>
+    <string name="product_list">Daftar Produk</string>
 
-    <!-- Untuk item_admin_product.xml -->
+
     <string name="edit_product">Tombol edit produk</string>
     <string name="delete_product">Tombol hapus produk</string>
     <string name="product_image">Gambar Produk</string>
@@ -72,12 +67,15 @@
     <string name="delete">Hapus</string>
     <string name="product_price_placeholder">Rp 0</string>
 
-    <!-- Manage Users -->
     <string name="nav_admin_manage_users">Manage Users</string>
 
-    <!-- Item User -->
     <string name="user_name">User Name</string>
     <string name="user_email">email@example.com</string>
     <string name="user_role">Role</string>
     <string name="delete_user">Delete User</string>
+
+
+    <string name="nav_admin_add_product">Add Product</string>
+    <string name="nav_cart">My Cart</string>
+    <string name="btn_choose_new_image">Choose New Image</string>
 </resources>
